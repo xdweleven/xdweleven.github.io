@@ -71,9 +71,9 @@ export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: To
   [ChainId.MAINNET]: {
     [AMPL.address]: [DAI, WETH[ChainId.MAINNET]]
   },
-    [ChainId.ROPSTEN]: {
-        [AMPL.address]: [DAI, WETH[ChainId.ROPSTEN]]
-    }
+  [ChainId.ROPSTEN]: {
+    [AMPL.address]: [DAI, WETH[ChainId.ROPSTEN]]
+  }
 }
 
 // used for display in the default list when adding liquidity
