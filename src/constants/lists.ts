@@ -15,8 +15,8 @@ export const DEFAULT_LIST_OF_LISTS: string[] = [
   // 'https://tokens.coingecko.com/uniswap/all.json',
   // 'https://app.tryroll.com/tokens.json',
   // 'https://raw.githubusercontent.com/compound-finance/token-list/master/compound.tokenlist.json',
-  // 'https://defiprime.com/defiprime.tokenlist.json',
-  // 'https://umaproject.org/uma.tokenlist.json'
+  'https://defiprime.com/defiprime.tokenlist.json',
+  'https://umaproject.org/uma.tokenlist.json',
   'https://xdweleven.github.io/tokens.json'
   // 'http://localhost:3000/tokens.json'
 ]
