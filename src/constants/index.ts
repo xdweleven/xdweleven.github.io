@@ -101,9 +101,7 @@ export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } 
     [USDC, USDT],
     [DAI, USDT]
   ],
-  [ChainId.ROPSTEN]: [
-    [MANA, USDT]
-]
+  [ChainId.ROPSTEN]: [[MANA, USDT]]
 }
 
 export interface WalletInfo {
